@@ -1,0 +1,152 @@
+﻿package lagvilava.giorgi;
+
+
+// 1)
+import java.util.Scanner;
+
+public class C {
+
+    public static void main(String[] args) {
+
+	Scanner sca = new Scanner(System.in);
+        int a, b, c;
+        
+
+
+        System.out.println("მეთოდი 1");
+        System.out.println("A: ");
+        a = sca.nextInt();
+
+        System.out.println("B: ");
+        b = sca.nextInt();
+
+        System.out.println("C: ");
+        c = sca.nextInt();
+
+
+
+
+
+        int m2 = a%10;
+        System.out.println("მეთოდი 2: " + m2);
+
+
+
+
+
+
+
+
+        int m3 = b;
+        while (m3 > 9) {
+            m3 /= 10;
+        }
+        System.out.println("მეთოდი 3: " + m3);
+
+
+
+
+
+        
+
+        int x, y, sum = 0;
+        x = z;
+
+        if ((x / 10) == 0) {
+
+            sum = z;
+        } else {
+
+            while (x > 0) {
+                y = x%10;
+                sum = sum+y;
+                x = x/10;
+            }
+        }
+        System.out.println("მეთოდი 4: " + sum);
+
+
+
+
+
+
+
+
+        
+        int m5 = a*b*c*m2;
+        System.out.println("მეთოდი 5: " + m5);
+
+
+
+
+
+
+
+        System.out.println("მეთოდი 6: " + m3 + m5);
+
+    }
+}
+
+
+// 2)
+
+void init_vars() {
+        Scanner sca = new Scanner(System.in);
+        System.out.println("X: ");
+        x = sca.nextInt();
+    }
+
+
+void increase_x() {
+        System.out.println("მეთოდი 2" + (x + 12));
+    }
+
+
+
+
+
+
+    void even_odd() {
+        if (x % 2 == 0) {
+
+            System.out.println("ლუწი");
+        }
+
+        else {
+
+            System.out.println("კენტი");
+        }
+
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
